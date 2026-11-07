@@ -1,3 +1,5 @@
+﻿[![GIL Concurrency Tests](https://github.com/rowan-rb/cpython-concurrency-research/actions/workflows/ci.yml/badge.svg)](https://github.com/rowan-rb/cpython-concurrency-research/actions/workflows/ci.yml)
+
 # The GIL doesn't save you: Silent Lost Updates in CPython
 
 [![Python 3.14](https://img.shields.io/badge/Python-3.12_|_3.13_|_3.14-blue.svg)](https://www.python.org/)
