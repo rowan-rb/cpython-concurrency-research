@@ -8,5 +8,10 @@ version = "0.1.0"
 description = "Research on CPython GIL and concurrency behavior"
 requires-python = ">=3.12"
 
+[tool.setuptools]
+# Le decimos a Linux exactamente qué archivos y carpetas empaquetar
+py-modules = ["demo_counter", "demo_cache"]
+packages = ["model", "tools"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
